@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Gestures</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div class="gestures"
+    (click)="onElementClicked()">
+    Click me
+  </div>
+  <div class="gestures"
+    (tap)="onElementTapped()">
+    Tap me
+  </div>
+  <div class="gestures"
+    (press)="onElementPressed()">
+    Long Press me
+  </div>
+</ion-content>

@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Lists1Page } from "../pages/lists1/lists1";
 import { Grids1Page } from "../pages/grids1/grids1";
+import { Gestures1Page } from "../pages/gestures1/gestures1";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     Lists1Page,
-    Grids1Page
+    Grids1Page,
+    Gestures1Page
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { Grids1Page } from "../pages/grids1/grids1";
     MyApp,
     HomePage,
     Lists1Page,
-    Grids1Page
+    Grids1Page,
+    Gestures1Page
   ],
   providers: [
     StatusBar,
