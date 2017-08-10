@@ -1,1 +1,20 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="nav">
+    <ion-header>
+        <ion-toolbar>
+            <ion-title>Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <button ion-item (click)="onLoad(rootPage)">
+                <ion-icon name="home" item-left></ion-icon>
+                Buttons
+            </button>
+            <button ion-item (click)="onLoad(lists1Page)">
+                <ion-icon name="list" item-left></ion-icon>
+                Lists1
+            </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #nav></ion-nav>

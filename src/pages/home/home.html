@@ -1,8 +1,11 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-buttons start>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Buttons</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -47,13 +50,5 @@
     icon-left>
     <ion-icon name="home"></ion-icon>
     Home
-  </button>
-  <hr>
-  <p></p>
-  <button
-    (click)="onGoToLists1Page()"
-    ion-button
-    block>
-    Go to List Page 1
   </button>
 </ion-content>
