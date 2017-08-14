@@ -9,6 +9,8 @@ import { HomePage } from '../pages/home/home';
 import { Lists1Page } from "../pages/lists1/lists1";
 import { Grids1Page } from "../pages/grids1/grids1";
 import { Gestures1Page } from "../pages/gestures1/gestures1";
+import { TouchEventComponent } from "../components/touch-event.component";
+import { CustomComponentPage } from "../pages/owncomponent/customcomponent";
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { Gestures1Page } from "../pages/gestures1/gestures1";
     HomePage,
     Lists1Page,
     Grids1Page,
-    Gestures1Page
+    Gestures1Page,
+    TouchEventComponent,
+    CustomComponentPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,8 @@ import { Gestures1Page } from "../pages/gestures1/gestures1";
     HomePage,
     Lists1Page,
     Grids1Page,
-    Gestures1Page
+    Gestures1Page,
+    CustomComponentPage
   ],
   providers: [
     StatusBar,
