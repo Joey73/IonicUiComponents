@@ -7,6 +7,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'gestures1.html',
 })
 export class Gestures1Page {
+  clicked = 0;
+  tapped = 0;
+  pressed = 0;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
